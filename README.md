@@ -110,7 +110,7 @@
 - 克隆项目
 ```bash
 
-git clone https://github.com/lhh737/LangChain-ReAct-Agent.git
+git clone https://github.com/wang-xiaoguang6/myagent.git
 ```
 - 安装依赖
 ```bash
@@ -118,9 +118,9 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 - 配置环境变量
 
-- 在config目录下创建调整相应的 yml 配置文件
+- 在项目根目录创建 `.env` 文件：
 ```bash
-export DASHSCOPE_API_KEY="your-api-key"
+DASHSCOPE_API_KEY="your-api-key"
 ```
 - 启动应用
 ```bash
